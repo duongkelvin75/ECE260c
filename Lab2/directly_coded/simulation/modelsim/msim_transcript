@@ -1,0 +1,58 @@
+# Reading pref.tcl
+# do canonical_farrow_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/duong/Desktop/UCSD/Grad/Spring\ 2024/ECE\ 260C/Lab2/directly_coded {C:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/directly_coded/canonical_farrow.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:11:25 on Apr 24,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/directly_coded" C:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/directly_coded/canonical_farrow.sv 
+# -- Compiling module canonical_farrow
+# 
+# Top level modules:
+# 	canonical_farrow
+# End time: 11:11:25 on Apr 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work {C:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/directly_coded/canonical_farrow.sv} {C:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/directly_coded/canonical_farrow_tb.sv} {C:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/directly_coded/farrow1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:11:38 on Apr 24,2024
+# vlog -reportprogress 300 -work work C:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/directly_coded/canonical_farrow.sv C:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/directly_coded/canonical_farrow_tb.sv C:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/directly_coded/farrow1.sv 
+# -- Compiling module canonical_farrow
+# -- Compiling module canonical_farrow_tb
+# -- Compiling module farrow1
+# 
+# Top level modules:
+# 	canonical_farrow_tb
+# 	farrow1
+# End time: 11:11:38 on Apr 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.canonical_farrow_tb
+# vsim work.canonical_farrow_tb 
+# Start time: 11:11:42 on Apr 24,2024
+# Loading sv_std.std
+# Loading work.canonical_farrow_tb
+# Loading work.canonical_farrow
+vsim work.canonical_farrow_tb
+# End time: 11:11:44 on Apr 24,2024, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# vsim work.canonical_farrow_tb 
+# Start time: 11:11:44 on Apr 24,2024
+# Loading sv_std.std
+# Loading work.canonical_farrow_tb
+# Loading work.canonical_farrow
+add wave -position insertpoint sim:/canonical_farrow_tb/*
+run -all
+# ** Note: $stop    : C:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/directly_coded/canonical_farrow_tb.sv(32)
+#    Time: 655400 ns  Iteration: 0  Instance: /canonical_farrow_tb
+# Break in Module canonical_farrow_tb at C:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/directly_coded/canonical_farrow_tb.sv line 32
+noforce sim:/canonical_farrow_tb/dat_out
+# End time: 14:08:59 on Apr 24,2024, Elapsed time: 2:57:15
+# Errors: 0, Warnings: 0

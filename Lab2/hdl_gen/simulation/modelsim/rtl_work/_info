@@ -1,0 +1,63 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/hdl_gen/simulation/modelsim
+vFarrow_Canonic
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1713982099
+!i10b 1
+!s100 Y4AOYH=V<<jARNKiea7UU2
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJSR<D3z_=IB5d=feh;QbA1
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1713558465
+8C:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/hdl_gen/Farrow_Canonic.sv
+FC:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/hdl_gen/Farrow_Canonic.sv
+!i122 1
+L0 31 296
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1713982099.000000
+!s107 C:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/hdl_gen/Farrow_Canonic_tb.sv|C:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/hdl_gen/Farrow_Canonic.sv|
+Z7 !s90 -reportprogress|300|-work|work|C:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/hdl_gen/Farrow_Canonic.sv|C:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/hdl_gen/Farrow_Canonic_tb.sv|
+!i113 1
+Z8 o-work work
+Z9 tCvgOpt 0
+n@farrow_@canonic
+vFarrow_Canonic_tb
+R1
+R2
+!i10b 1
+!s100 4]K`1Q2Bbo7QiH4[gSg5N1
+R3
+I;2L]0;IU;Q@ea6E3A5LgS0
+R4
+S1
+R0
+w1713558463
+8C:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/hdl_gen/Farrow_Canonic_tb.sv
+FC:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/hdl_gen/Farrow_Canonic_tb.sv
+!i122 1
+L0 36 296
+R5
+r1
+!s85 0
+31
+R6
+Z10 !s107 C:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/hdl_gen/Farrow_Canonic_tb.sv|C:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/hdl_gen/Farrow_Canonic.sv|
+R7
+!i113 1
+R8
+R9
+n@farrow_@canonic_tb

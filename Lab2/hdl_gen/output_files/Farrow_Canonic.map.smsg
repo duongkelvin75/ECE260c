@@ -1,0 +1,8 @@
+Warning (10273): Verilog HDL warning at Farrow_Canonic_tb.sv(96): extended using "x" or "z" File: C:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/hdl_gen/Farrow_Canonic_tb.sv Line: 96
+Warning (10268): Verilog HDL information at Farrow_Canonic_tb.sv(93): always construct contains both blocking and non-blocking assignments File: C:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/hdl_gen/Farrow_Canonic_tb.sv Line: 93
+Warning (10273): Verilog HDL warning at Farrow_Canonic_tb.sv(107): extended using "x" or "z" File: C:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/hdl_gen/Farrow_Canonic_tb.sv Line: 107
+Warning (10273): Verilog HDL warning at Farrow_Canonic_tb.sv(163): extended using "x" or "z" File: C:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/hdl_gen/Farrow_Canonic_tb.sv Line: 163
+Warning (10268): Verilog HDL information at Farrow_Canonic_tb.sv(160): always construct contains both blocking and non-blocking assignments File: C:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/hdl_gen/Farrow_Canonic_tb.sv Line: 160
+Warning (10273): Verilog HDL warning at Farrow_Canonic_tb.sv(172): extended using "x" or "z" File: C:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/hdl_gen/Farrow_Canonic_tb.sv Line: 172
+Warning (10273): Verilog HDL warning at Farrow_Canonic_tb.sv(295): extended using "x" or "z" File: C:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/hdl_gen/Farrow_Canonic_tb.sv Line: 295
+Warning (10268): Verilog HDL information at Farrow_Canonic_tb.sv(292): always construct contains both blocking and non-blocking assignments File: C:/Users/duong/Desktop/UCSD/Grad/Spring 2024/ECE 260C/Lab2/hdl_gen/Farrow_Canonic_tb.sv Line: 292
